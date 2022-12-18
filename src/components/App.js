@@ -3,6 +3,7 @@ import "../styles/App.css";
 import useLocalStorage from "./useLocalStorage";
 
 const App = () => {
+  
   const [state, setState] = useLocalStorage("key", null);
   const inputRef = useRef(null);
 
